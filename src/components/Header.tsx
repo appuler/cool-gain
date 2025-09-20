@@ -9,7 +9,7 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <h1 className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-              ProteIce
+              Cool Gain
             </h1>
             <Badge variant="secondary" className="hidden sm:inline-flex bg-accent text-accent-foreground">
               Premium Protein
@@ -31,17 +31,7 @@ export const Header = () => {
             </a>
           </nav>
           
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" className="relative">
-              <ShoppingCart className="w-5 h-5" />
-              <Badge 
-                variant="destructive" 
-                className="absolute -top-2 -right-2 w-5 h-5 p-0 flex items-center justify-center text-xs"
-              >
-                0
-              </Badge>
-            </Button>
-            
+          <div className="flex items-center gap-4">            
             <Button variant="ghost" size="icon" className="md:hidden">
               <Menu className="w-5 h-5" />
             </Button>

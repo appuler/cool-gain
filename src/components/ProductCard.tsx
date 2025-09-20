@@ -64,10 +64,6 @@ export const ProductCard = ({
               <span className="text-2xl font-bold text-primary">${price}</span>
               <span className="text-sm text-muted-foreground ml-1">per pint</span>
             </div>
-            <Button variant="cart" size="sm" className="gap-2">
-              <ShoppingCart className="w-4 h-4" />
-              Add to Cart
-            </Button>
           </div>
         </div>
       </CardContent>

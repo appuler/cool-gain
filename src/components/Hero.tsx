@@ -33,13 +33,7 @@ export const Hero = () => {
           >
             Shop Now
           </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="text-lg px-8 py-6 h-auto border-hero-foreground text-hero-foreground hover:bg-hero-foreground hover:text-hero"
-          >
-            Learn More
-          </Button>
+
         </div>
         
         <div className="animate-float">
