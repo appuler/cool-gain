@@ -1,45 +1,75 @@
 import { ProductCard } from "./ProductCard";
-import vanillaImage from "@/assets/vanilla-protein-ice-cream.jpg";
-import chocolateImage from "@/assets/chocolate-protein-ice-cream.jpg";
-import strawberryImage from "@/assets/strawberry-protein-ice-cream.jpg";
-import mintImage from "@/assets/mint-protein-ice-cream.jpg";
+import vanillaImage from "@/assets/vanilla.png";
+import chocolateImage from "@/assets/chocolate.png";
+import strawberryImage from "@/assets/strawberry.png";
+import cookiesImage from "@/assets/cookies.png";
+import appleImage from "@/assets/apple_pie.png";
+import pumpkinImage from "@/assets/pumpkin.png";
+import mysteryImage from "@/assets/mystery.jpg";
 
 const products = [
   {
     name: "Vanilla Dream",
-    flavors: ["Classic Vanilla", "Vanilla Bean", "French Vanilla"],
-    price: 12.99,
-    protein: 22,
+    flavors: [],
+    price: 25,
+    protein: 60,
     calories: 120,
     image: vanillaImage,
-    description: "Rich, creamy vanilla protein ice cream made with real vanilla beans and premium whey protein."
+    description: "Rich, creamy vanilla protein ice cream made with premium whey protein."
   },
   {
     name: "Chocolate Bliss",
-    flavors: ["Dark Chocolate", "Milk Chocolate", "Double Chocolate"],
-    price: 13.99,
-    protein: 24,
-    calories: 140,
+    flavors: [],
+    price: 20,
+    protein: 60,
+    calories: 150,
     image: chocolateImage,
     description: "Decadent chocolate protein ice cream with intense cocoa flavor and smooth, velvety texture."
   },
   {
     name: "Strawberry Fields",
-    flavors: ["Fresh Strawberry", "Strawberry Cheesecake", "Wild Berry"],
-    price: 13.49,
-    protein: 20,
-    calories: 110,
+    flavors: [],
+    price: 20,
+    protein: 60,
+    calories: 150,
     image: strawberryImage,
-    description: "Fresh strawberry protein ice cream packed with real fruit pieces and natural strawberry flavor."
+    description: "Fresh strawberry protein ice cream packed with natural strawberry flavor."
   },
   {
-    name: "Mint Chip Marvel",
-    flavors: ["Mint Chocolate Chip", "Peppermint", "Mint Oreo"],
-    price: 14.49,
-    protein: 21,
-    calories: 125,
-    image: mintImage,
-    description: "Refreshing mint protein ice cream with dark chocolate chips for the perfect cool treat."
+    name: "Cookies & Cream",
+    flavors: [],
+    price: 20,
+    protein: 60,
+    calories: 150,
+    image: cookiesImage,
+    description: "Rich vanilla ice cream created using a creamy and crunchy cookies-and-cream favorite."
+  },
+  {
+    name: "Apple Pie",
+    flavors: [],
+    price: 20,
+    protein: 60,
+    calories: 150,
+    image: appleImage,
+    description: "A creamy ice cream swirled with tender apple pieces, and buttery pie crust crumbles that taste just like a slice of apple pie."
+  },
+  {
+    name: "Pumpkin Spice",
+    flavors: [],
+    price: 25,
+    protein: 60,
+    calories: 150,
+    image: pumpkinImage,
+    description: "A smooth, autumn-inspired ice cream infused with pumpkin, cinnamon, nutmeg, and cloves for a cozy pumpkin spice flavor."
+  }, 
+  {
+    name: "Custom Flavor",
+    flavors: [],
+    price: 25,
+    protein: 60,
+    calories: 150,
+    image: mysteryImage,
+    description: "Contact us to ask us about any custom flavors you have in mind"
   }
 ];
 
