@@ -10,7 +10,7 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <h1 className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-              Cool Gain
+              Chapel Chill
             </h1>
             <Badge variant="secondary" className="hidden sm:inline-flex bg-accent text-accent-foreground">
               Premium Protein
