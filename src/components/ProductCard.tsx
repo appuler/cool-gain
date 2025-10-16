@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ShoppingCart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface ProductCardProps {
   name: string;
@@ -64,6 +65,12 @@ export const ProductCard = ({
               <span className="text-2xl font-bold text-primary">${price}</span>
               <span className="text-sm text-muted-foreground ml-1">per pint</span>
             </div>
+            <Link to="/contact">
+              <Button className="gap-2">
+                <ShoppingCart className="w-4 h-4" />
+                Order Now
+              </Button>
+            </Link>
           </div>
         </div>
       </CardContent>
