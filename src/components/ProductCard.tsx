@@ -60,13 +60,13 @@ export const ProductCard = ({
             </div>
           </div>
           
-          <div className="flex items-center justify-between">
+          <div className="space-y-3">
             <div>
               <span className="text-2xl font-bold text-primary">${price}</span>
               <span className="text-sm text-muted-foreground ml-1">per pint</span>
             </div>
-            <Link to="/contact">
-              <Button className="gap-2">
+            <Link to="/contact" className="block">
+              <Button className="w-full gap-2">
                 <ShoppingCart className="w-4 h-4" />
                 Order Now
               </Button>
