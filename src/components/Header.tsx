@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ShoppingCart, Menu } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -26,9 +27,9 @@ export const Header = () => {
             <a href="#nutrition" className="text-foreground hover:text-primary transition-colors">
               Nutrition
             </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors">
+            <Link to="/contact" className="text-foreground hover:text-primary transition-colors">
               Contact
-            </a>
+            </Link>
           </nav>
           
           <div className="flex items-center gap-4">            
