@@ -19,7 +19,7 @@ const ContactPage = () => {
             <iframe 
               src="https://docs.google.com/forms/d/e/1FAIpQLSfm9J0RS2FZT-zwoVOP0tORmvef2A70lwr7CYUSkUOkrr-GZA/viewform?embedded=true" 
               width="640" 
-              height="1128" 
+              height="1182" 
               frameBorder="0" 
               marginHeight={0} 
               marginWidth={0}
