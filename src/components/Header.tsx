@@ -18,9 +18,9 @@ export const Header = () => {
           </div>
           
           <nav className="hidden md:flex items-center gap-8">
-            <a href="/products" className="text-foreground hover:text-primary transition-colors">
+            <Link to="/" className="text-foreground hover:text-primary transition-colors">
               Products
-            </a>
+            </Link>
             <a href="#about" className="text-foreground hover:text-primary transition-colors">
               About
             </a>
