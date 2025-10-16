@@ -21,12 +21,14 @@ export const Header = () => {
             <Link to="/" className="text-foreground hover:text-primary transition-colors">
               Products
             </Link>
+            {/*
             <a href="#about" className="text-foreground hover:text-primary transition-colors">
               About
             </a>
             <a href="#nutrition" className="text-foreground hover:text-primary transition-colors">
               Nutrition
             </a>
+            */}
             <Link to="/contact" className="text-foreground hover:text-primary transition-colors">
               Contact
             </Link>
