@@ -11,7 +11,7 @@ const products = [
   {
     name: "Vanilla Dream",
     flavors: [],
-    price: 25,
+    price: 20,
     protein: 60,
     calories: 120,
     image: vanillaImage,
