@@ -37,11 +37,6 @@ const AboutPage = () => {
         {/* Hero Section */}
         <section className="max-w-7xl mx-auto px-4 py-16">
           <div className="text-center space-y-6">
-            <img 
-              src={uncLogo} 
-              alt="UNC Kenan-Flagler Business School" 
-              className="h-20 mx-auto mb-8"
-            />
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-hero bg-clip-text text-transparent">
               About Chapel Chill
             </h1>
@@ -55,7 +50,7 @@ const AboutPage = () => {
         </section>
 
         {/* Make-A-Wish Section */}
-        <section className="bg-gradient-card py-16 my-16">
+        <section className="bg-primary/10 py-16 my-16">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
@@ -150,6 +145,17 @@ const AboutPage = () => {
               When you choose Chapel Chill, you're not just enjoying premium protein ice cream—
               you're helping grant wishes and bring joy to children facing critical illnesses.
             </p>
+          </div>
+        </section>
+
+        {/* UNC Section */}
+        <section className="max-w-7xl mx-auto px-4 py-16">
+          <div className="text-center">
+            <img 
+              src={uncLogo} 
+              alt="UNC Kenan-Flagler Business School" 
+              className="h-24 mx-auto"
+            />
           </div>
         </section>
       </main>
