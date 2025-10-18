@@ -1,10 +1,10 @@
 import { Header } from "@/components/Header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Instagram, Linkedin } from "lucide-react";
+import { Instagram, Linkedin, X } from "lucide-react";
 import makeAWishLogo from "@/assets/make-a-wish-logo.png";
 import uncLogo from "@/assets/unc-business-school.png";
-import brandLogo from "@/assets/chapel-chill-brand-logo.jpg";
+import brandLogo from "@/assets/chapel-chill-brand-logo.png";
 
 const AboutPage = () => {
   const teamMembers = [
@@ -151,16 +151,24 @@ const AboutPage = () => {
 
         {/* UNC Section */}
         <section className="max-w-7xl mx-auto px-4 py-8">
-          <div className="flex items-center justify-center gap-8">
-            <img 
-              src={brandLogo} 
-              alt="Chapel Chill Brand" 
-              className="h-24 w-24 object-contain"
-            />
+          <div className="flex items-center justify-center gap-12">
+            <div className="flex items-center gap-3">
+              <img 
+                src={brandLogo} 
+                alt="Chapel Chill Brand" 
+                className="h-20 w-20 object-contain"
+              />
+              <span className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
+                Chapel Chill
+              </span>
+            </div>
+            
+            <X className="h-8 w-8 text-primary" strokeWidth={3} />
+            
             <img 
               src={uncLogo} 
               alt="UNC Kenan-Flagler Business School" 
-              className="h-24 object-contain"
+              className="h-20 object-contain"
             />
           </div>
         </section>
