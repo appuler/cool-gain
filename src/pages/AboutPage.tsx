@@ -7,6 +7,8 @@ import uncLogo from "@/assets/unc-business-school.png";
 import brandLogo from "@/assets/chapel-chill-brand-logo.png";
 import Aphoto from "@/assets/adi.jpg";
 import blankPhoto from "@/assets/blank_person.png";
+import Ibrahim from "@/assets/ibrahim.jpg";
+import arrigga from "@/assets/Arrigga.jpg";
 
 const AboutPage = () => {
   const teamMembers = [
@@ -20,14 +22,14 @@ const AboutPage = () => {
     {
       name: "Ibrahim Mohsin",
       role: "Co-Founder & Operations",
-      image: blankPhoto,
+      image: Ibrahim,
       instagram: "https://www.instagram.com/ibrahimmohsin__/",
       linkedin: "https://www.linkedin.com/in/ibrahim-mohsin-16a1b8261/",
     },
     {
       name: "Arrigga Hao",
       role: "Co-Founder & Marketing Lead",
-      image: blankPhoto,
+      image: arrigga,
       instagram: "https://www.instagram.com/arrigga/",
       linkedin: "https://www.linkedin.com/in/arrigga/",
     },
