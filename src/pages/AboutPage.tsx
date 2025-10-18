@@ -5,29 +5,31 @@ import { Instagram, Linkedin, X } from "lucide-react";
 import makeAWishLogo from "@/assets/make-a-wish-logo.png";
 import uncLogo from "@/assets/unc-business-school.png";
 import brandLogo from "@/assets/chapel-chill-brand-logo.png";
+import Aphoto from "@/assets/adi.jpg"
+import blankPhoto from "@/assets/blank_person.png"
 
 const AboutPage = () => {
   const teamMembers = [
     {
-      name: "Sarah Johnson",
-      role: "Co-Founder & Marketing Lead",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-      instagram: "https://instagram.com/sarahjohnson",
-      linkedin: "https://linkedin.com/in/sarahjohnson",
+      name: "Aditya Vardhan Veerathu",
+      role: "Co-Founder & Tech Lead",
+      image: Aphoto,
+      instagram: "https://www.instagram.com/advee42/",
+      linkedin: "https://www.linkedin.com/in/aditya-veerathu/",
     },
     {
-      name: "Michael Chen",
+      name: "Ibrahim Mohsin",
       role: "Co-Founder & Operations",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-      instagram: "https://instagram.com/michaelchen",
-      linkedin: "https://linkedin.com/in/michaelchen",
+      image: blankPhoto,
+      instagram: "https://www.instagram.com/ibrahimmohsin__/",
+      linkedin: "https://www.linkedin.com/in/ibrahim-mohsin-16a1b8261/",
     },
     {
-      name: "Emily Rodriguez",
-      role: "Co-Founder & Product Development",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
-      instagram: "https://instagram.com/emilyrodriguez",
-      linkedin: "https://linkedin.com/in/emilyrodriguez",
+      name: "Arrigga Hao",
+      role: "Co-Founder & Marketing Lead",
+      image: blankPhoto,
+      instagram: "https://www.instagram.com/arrigga/",
+      linkedin: "https://www.linkedin.com/in/arrigga/",
     },
   ];
 
@@ -150,7 +152,7 @@ const AboutPage = () => {
               variant="secondary" 
               size="lg"
               className="bg-white/20 hover:bg-white/30 text-white border-white/30"
-              onClick={() => window.open('https://instagram.com/chapelchill', '_blank')}
+              onClick={() => window.open('https://www.instagram.com/chapel_chill_protein/', '_blank')}
             >
               <Instagram className="w-5 h-5 mr-2" />
               Follow us on Instagram
