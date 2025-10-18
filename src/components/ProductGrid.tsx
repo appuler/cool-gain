@@ -11,17 +11,17 @@ const products = [
   {
     name: "Vanilla Dream",
     flavors: [],
-    price: 20,
-    protein: 60,
-    calories: 120,
+    price: 10,
+    protein: 30,
+    calories: 150,
     image: vanillaImage,
     description: "Rich, creamy vanilla protein ice cream made with premium whey protein."
   },
   {
     name: "Chocolate Bliss",
     flavors: [],
-    price: 20,
-    protein: 60,
+    price: 10,
+    protein: 30,
     calories: 150,
     image: chocolateImage,
     description: "Decadent chocolate protein ice cream with intense cocoa flavor and smooth, velvety texture."
@@ -29,8 +29,8 @@ const products = [
   {
     name: "Strawberry Fields",
     flavors: [],
-    price: 20,
-    protein: 60,
+    price: 10,
+    protein: 30,
     calories: 150,
     image: strawberryImage,
     description: "Fresh strawberry protein ice cream packed with natural strawberry flavor."
@@ -38,8 +38,8 @@ const products = [
   {
     name: "Cookies & Cream",
     flavors: [],
-    price: 20,
-    protein: 60,
+    price: 10,
+    protein: 30,
     calories: 150,
     image: cookiesImage,
     description: "Rich vanilla ice cream created using a creamy and crunchy cookies-and-cream favorite."
@@ -47,8 +47,8 @@ const products = [
   {
     name: "Apple Pie",
     flavors: [],
-    price: 20,
-    protein: 60,
+    price: 10,
+    protein: 30,
     calories: 150,
     image: appleImage,
     description: "A creamy ice cream swirled with tender apple pieces, and buttery pie crust crumbles that taste just like a slice of apple pie."
@@ -56,8 +56,8 @@ const products = [
   {
     name: "Pumpkin Spice",
     flavors: [],
-    price: 25,
-    protein: 60,
+    price: 10,
+    protein: 30,
     calories: 150,
     image: pumpkinImage,
     description: "A smooth, autumn-inspired ice cream infused with pumpkin, cinnamon, nutmeg, and cloves for a cozy pumpkin spice flavor."
@@ -65,8 +65,8 @@ const products = [
   {
     name: "Custom Flavor",
     flavors: [],
-    price: 25,
-    protein: 60,
+    price: 12,
+    protein: 30,
     calories: 150,
     image: mysteryImage,
     description: "Contact us to ask us about any custom flavors you have in mind"

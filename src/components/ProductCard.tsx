@@ -63,7 +63,7 @@ export const ProductCard = ({
           <div className="space-y-3">
             <div>
               <span className="text-2xl font-bold text-primary">${price}</span>
-              <span className="text-sm text-muted-foreground ml-1">per pint</span>
+              <span className="text-sm text-muted-foreground ml-1">per half-pint</span>
             </div>
             <Link to="/contact" className="block">
               <Button className="w-full gap-2">
