@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Instagram, Linkedin } from "lucide-react";
 import makeAWishLogo from "@/assets/make-a-wish-logo.png";
 import uncLogo from "@/assets/unc-business-school.png";
+import brandLogo from "@/assets/chapel-chill-brand-logo.jpg";
 
 const AboutPage = () => {
   const teamMembers = [
@@ -50,7 +51,7 @@ const AboutPage = () => {
         </section>
 
         {/* Make-A-Wish Section */}
-        <section className="bg-primary/10 py-16 my-16">
+        <section className="bg-primary/10 py-16 my-8">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
@@ -84,7 +85,7 @@ const AboutPage = () => {
         </section>
 
         {/* Team Section */}
-        <section className="max-w-7xl mx-auto px-4 py-16">
+        <section className="max-w-7xl mx-auto px-4 py-8">
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl md:text-4xl font-bold">Meet Our Team</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -136,7 +137,7 @@ const AboutPage = () => {
         </section>
 
         {/* Impact Section */}
-        <section className="max-w-7xl mx-auto px-4 py-16">
+        <section className="max-w-7xl mx-auto px-4 py-8">
           <div className="bg-gradient-hero rounded-2xl p-12 text-center text-hero-foreground">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Every Scoop Makes a Difference
@@ -149,12 +150,17 @@ const AboutPage = () => {
         </section>
 
         {/* UNC Section */}
-        <section className="max-w-7xl mx-auto px-4 py-16">
-          <div className="text-center">
+        <section className="max-w-7xl mx-auto px-4 py-8">
+          <div className="flex items-center justify-center gap-8">
+            <img 
+              src={brandLogo} 
+              alt="Chapel Chill Brand" 
+              className="h-24 w-24 object-contain"
+            />
             <img 
               src={uncLogo} 
               alt="UNC Kenan-Flagler Business School" 
-              className="h-24 mx-auto"
+              className="h-24 object-contain"
             />
           </div>
         </section>
