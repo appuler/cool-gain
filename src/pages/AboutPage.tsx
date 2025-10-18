@@ -5,8 +5,8 @@ import { Instagram, Linkedin, X } from "lucide-react";
 import makeAWishLogo from "@/assets/make-a-wish-logo.png";
 import uncLogo from "@/assets/unc-business-school.png";
 import brandLogo from "@/assets/chapel-chill-brand-logo.png";
-import Aphoto from "@/assets/adi.jpg"
-import blankPhoto from "@/assets/blank_person.png"
+import Aphoto from "@/assets/adi.jpg";
+import blankPhoto from "@/assets/blank_person.png";
 
 const AboutPage = () => {
   const teamMembers = [
