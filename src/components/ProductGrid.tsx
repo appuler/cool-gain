@@ -43,33 +43,6 @@ const products = [
     calories: 150,
     image: cookiesImage,
     description: "Rich vanilla ice cream created using a creamy and crunchy cookies-and-cream favorite."
-  },
-  {
-    name: "Apple Pie",
-    flavors: [],
-    price: 10,
-    protein: 30,
-    calories: 150,
-    image: appleImage,
-    description: "A creamy ice cream swirled with tender apple pieces, and buttery pie crust crumbles that taste just like a slice of apple pie."
-  },
-  {
-    name: "Pumpkin Spice",
-    flavors: [],
-    price: 10,
-    protein: 30,
-    calories: 150,
-    image: pumpkinImage,
-    description: "A smooth, autumn-inspired ice cream infused with pumpkin, cinnamon, nutmeg, and cloves for a cozy pumpkin spice flavor."
-  }, 
-  {
-    name: "Custom Flavor",
-    flavors: [],
-    price: 12,
-    protein: 30,
-    calories: 150,
-    image: mysteryImage,
-    description: "Contact us to ask us about any custom flavors you have in mind"
   }
 ];
 
